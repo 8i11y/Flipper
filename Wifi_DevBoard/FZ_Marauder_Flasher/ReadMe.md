@@ -30,7 +30,12 @@ Flasher includes auto-detection and BINs for Flipper devboard, ESP32-WROOM, and 
 
 Current Marauder version included in the ZIP: v0.13.20231026 (current release as of Oct 26, 2023)
 
-**Once the install has completed, [head over here](https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard#marauder-install-information) to learn more about what Marauder can do!**
+**Once the install has completed, [head over here](https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard#marauder-install-information) to learn more about what Marauder can do!**<br>
+<br>
+***Important***<br>
+**You need to copy the esp32_marauder_v0_13_6_20231214_flipper_sd_serial.bin from the SD folder, rename it to esp32_marauder_v0_13_6_20231214_flipper.bin and delete the old one in order
+to enable Marauder to save data in the pcap-files!
+
 
 The [batch file](https://github.com/UberGuidoZ/Flipper/blob/main/Wifi_DevBoard/FZ_Marauder_Flasher/Flash-v2.5.bat) is also included above for review and to track coming changes.
 
